@@ -6,8 +6,8 @@ module.exports = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "@supernova-tool", // Usually your GitHub org/user name.
-  projectName: "supernova", // Usually your repo name.
+  organizationName: "supernova-tool", // Usually your GitHub org/user name.
+  projectName: "supernova-site", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "SupernovaJS",
