@@ -1,7 +1,7 @@
 module.exports = {
   title: "SupernovaJS",
   tagline: "The SSR Microframework",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://supernova-tool.github.io/supernova-site",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
