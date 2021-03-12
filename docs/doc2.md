@@ -1,6 +1,19 @@
 ---
 id: doc2
-title: Document Number 2
+title: CLI
 ---
 
-This is a link to [another document.](doc3.md) This is a link to an [external page.](http://www.example.com/)
+## CLI
+
+### Start a dev server with hot reload
+
+`npm run dev`
+
+### Start a production ready server
+
+`npm start`
+
+### Generate page
+
+`npm run generate-page <name>`
+
