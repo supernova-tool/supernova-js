@@ -36,10 +36,9 @@ module.exports = async () => {
   return {
     data: {
       meet: "Hellow world!",
-    }
+    },
   };
 };
-
 ```
 
 **pages/hello/index.html**
@@ -59,9 +58,11 @@ You can use data object from your index.js here to template your html
       as="style"
       href="/static/{{cssFileName}}"
     />
-    {{#dev}}
-    <script type="application/javascript" src="/static/{{clientScriptFileName}}" async></script>
-    {{/dev}}
+    <script
+      type="application/javascript"
+      src="/static/{{clientScriptFileName}}"
+      async
+    ></script>
   </head>
   <body>
     <p class="meeting">{{meet}}</p>
@@ -72,13 +73,8 @@ You can use data object from your index.js here to template your html
 **pages/hello/style.scss**
 
 ```scss
-.block {
-  &__element {
-    text-transform: capitalize;
-    &--modifier {
-      font-weight: bolder;
-    }
-  }
+.meeting {
+  font-weight: bolder;
 }
 ```
 

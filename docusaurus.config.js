@@ -40,21 +40,8 @@ module.exports = {
               to: "docs/",
             },
             {
-              label: "Second Doc",
+              label: "CLI",
               to: "docs/doc2/",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "blog",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
             },
           ],
         },
@@ -70,13 +57,7 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+            "https://github.com/supernova-tool/supernova-site/edit/master/gh-pages/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
